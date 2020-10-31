@@ -1,3 +1,4 @@
+
 // These functions open and close the contact form 
 function openForm() {
     document.getElementById("myForm").style.display = "block";
@@ -32,4 +33,5 @@ function openForm() {
         }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-  };
+  }
+  
